@@ -1,0 +1,11 @@
+const nomes = new Set()
+nomes.add('Rafael')
+nomes.add('Marcelo')
+nomes.add('Edyregina')
+nomes.add('Eliana ')
+nomes.add('Breno')
+nomes.add('Matheus')
+nomes.add('Rafael')
+
+console.log(nomes)
+console.log(nomes.has('Breno'))

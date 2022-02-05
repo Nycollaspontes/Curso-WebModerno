@@ -1,0 +1,12 @@
+let quantidade = 10;
+let precocaneta = 6.4;
+let imposto = 1.5;
+let preco = 7.9;
+let PrecoFinal = preco +imposto;
+let nome  = "caneta";
+console.log(nome);
+console.log(quantidade);
+console.log(precocaneta);
+console.log(imposto);
+console.log(preco);
+console.log(PrecoFinal);    

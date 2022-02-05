@@ -1,0 +1,51 @@
+ p{
+        flex-direction: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+#slider p{
+    position:  absolute;
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+    opacity: 0;
+}
+
+#slider p.selected{
+opacity: 1;
+}
+
+#slider{
+    width: 80%;
+    max-width: 500px;
+    height: 25vw;
+    max-height: 150px;
+
+    position: relative;
+}
+
+.circular{
+        width: 513;
+        background-color: grey ;
+
+    }
+
+.texto{
+        width: 400px;
+    }
+.texto img{
+
+        margin: 0px 12px 2px 0px;
+    }
+.cidade{
+    width: 513px; 
+    height: 342px;
+    background-image: url('http://files.cod3r.com.br/curso-web/imagem4.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 200%;
+
+}
